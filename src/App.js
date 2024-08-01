@@ -1,3 +1,10 @@
+// import logo from "./logo.svg";
+import "./App.css";
+import { useState, useEffect } from "react";
+import Gallery from "./gallery";
+import Button from "./button";
+// import InputId from "./inputId";
+
 function App() {
   let [artId, setArtId] = useState(12000);
   let [data, setData] = useState({});
